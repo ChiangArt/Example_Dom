@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Goles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="countdown-timer" id="countdownTimer" >45:00</div>
+    <div class="container">
+        <div class="team" id="team1">
+            <h2>Equipo 1</h2>
+            <div id="goalsTeam1" class="goals-counter">0</div>
+            <button class="goal-button blue" onclick="addGoal(1)">GOL</button>
+        </div>
+        <div class="separator"></div>
+        <div class="team" id="team2">
+            <h2>Equipo 2</h2>
+            <div id="goalsTeam2" class="goals-counter">0</div>
+            <button class="goal-button red" onclick="addGoal(2)">GOL</button>
+        </div>
+    </div>
+
+        <button class="start-button green" onclick="startTimer()">Empezar Partido</button>
+        <button class="start-button green2" onclick="stopTimer()">Stop</button>
+        <button class="start-button green3" onclick="reiniciarJuego()">Reiniciar</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
